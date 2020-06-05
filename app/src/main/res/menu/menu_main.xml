@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Programa"
+        android:checkable="true"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:orderInCategory="100"
+        android:showAsAction="withText|collapseActionView"
+        android:title="Programa"
+        android:visible="true"
+        app:showAsAction="withText|never"
+        tools:ignore="AppCompatResource" />
+
+
+    <item
+        android:id="@+id/Linguagem"
+        android:checkable="true"
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"
+        android:orderInCategory="101"
+        android:title="Linguagem"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/Autores"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:orderInCategory="102"
+        android:title="Autores"
+        app:showAsAction="collapseActionView" />
+
+</menu>
